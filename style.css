@@ -1,0 +1,219 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #fff;
+    background: #333;
+  
+
+.store-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+    border-bottom: 5px solid green;
+}
+
+.store-name {
+    font-size: 1.3em;
+    margin: 0;
+}
+
+.whatsapp-icon img {
+    width: 40px;
+    height: 40px;
+}
+
+.banner {
+    position: relative;
+    height: 230px;
+    overflow: hidden;
+    margin: 10px 0;
+}
+
+.slideshow-container {
+    max-width: 98%;
+    position: relative;
+    margin: auto;
+    height: 98%;
+}
+
+.mySlides {
+    display: none;
+    height: 100%;
+}
+
+.mySlides img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border: 1px solid #9fff00;
+    border-radius: 10px;
+}
+
+.moving-text {
+    background-color: #d1ff33;
+    color: black;
+    padding: 10px;
+    font-weight: bold;
+    text-align: center;
+    border: 1px solid green;
+    border-radius: 8px;
+    margin: 1 20px;
+}
+
+.product-cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+    padding: 15px;
+}
+
+.card {
+    background-color: #555;
+    border: 2px solid #555;
+    border-radius: 8px;
+    text-align: center;
+    cursor: pointer;
+    transition: transform 0.3s;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.card img {
+    width: 100%;
+    height: calc(100% - 40px); /* Adjusted to fit the text below */
+    object-fit: cover;
+    border-bottom: 1px solid #555;
+    flex-grow: 1;
+}
+
+.card p {
+    margin: 10;
+    padding: 0px;
+    background-color: #555;
+    border-top: 1px solid #555;
+    width: 100%;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+@media (max-width: 768px) {
+    .product-cards {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+@media (max-width: 480px) {
+    .product-cards {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #99a3a4; /* Set the background to black */
+    margin: 0;
+    padding: 0;
+}
+
+.footer {
+    background-color:#333; /* Footer background set to white */
+    color: #283747;
+    padding: 50px;
+    text-align: left;
+    border-top: 1px solid #abb2b9;
+}
+
+.footer .contact-info p,
+.footer .quick-links p,
+.footer .connect-icons p {
+    margin: 0;
+    font-weight: bold;
+    color: #030303; /* Text color changed to match the theme */
+}
+
+.footer .quick-links ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footer .quick-links ul li {
+    margin: 5px 0;
+}
+
+.footer .quick-links ul li a {
+    color: #40cc53; /* Links color */
+    text-decoration: none;
+}
+
+.footer .quick-links ul li a:hover {
+    text-decoration: underline;
+}
+
+.footer .connect-icons {
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.footer .connect-icons a {
+    color: #40cc53; /* Icon color */
+    font-size: 1.7em;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.footer .connect-icons a:hover {
+    color: #40cc53; /* Icon color on hover */
+}
+
+.footer .contact-info p i,
+.footer .connect-icons a i {
+    margin-right: 10px;
+}
+
+.footer .copyright {
+    font-size: 0.9em;
+    margin-top: 20px;
+    text-align: center;
+    color: #030303; /* Lighter color for the copyright text */
+}
+
+.logo {
+    font-size: 1.7em;
+}
+
+.highlight {
+    color: #9fff00;
+}
+
+
+}
+
+.recharge {
+            text-align: center;
+            margin: 20px 0;
+            font-size: 20px; /* Adjust font size here */
+            font-weight: bold;
+            color: #b4e033;
+        }
+        .recharge-icon {
+            vertical-align: middle;
+            margin-right: 10px;
+            font-size: 25px; /* Adjust icon size to match font size */
+        }
+        .popular-games {
+            text-align: center;
+            font-size: 28px;
+            font-weight: bold;
+            margin: 20px 0;
+            color: #b4e033;
+        }
