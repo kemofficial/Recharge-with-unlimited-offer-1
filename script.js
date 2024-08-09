@@ -13,4 +13,4 @@ function showSlides() {
     setTimeout(showSlides, 3000); // Change image every 3 seconds
 }
 
-document.getElementById('whatsapp-link').href = 'https://chat.whatsapp.com/HmKo6YiKkj3DUSL5jBjh3Z';
+document.getElementById('whatsapp-link').href = 'https://wa.me/9233833775';
